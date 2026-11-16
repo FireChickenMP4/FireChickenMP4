@@ -23,3 +23,11 @@ jobs:
           plugin_languages_limit: 6
           plugin_languages_sections: most-used
           plugin_languages_details: percentage
+          plugin_languages_skipped: DataStructLesson, term-homework, MuXi, SnakeGame, VulkanLearn, WorkSpace, SAM
+          extras_css: |
+            @media (prefers-color-scheme: dark) {
+              svg { color: #adbac7; }
+              h1, h2, h3 { color: #539bf5; }
+              .field svg { fill: #768390; }
+              .calendar .day { fill: #21262d; }
+            }
