@@ -20,7 +20,7 @@ jobs:
           base: header, activity
           config_timezone: Asia/Shanghai
           repositories_forks: yes
-          commits_authoring: FireChickenMP4, Haiyang Ren, 67735644+FireChickenMP4@users.noreply.github.com
+          commits_authoring: ${{ secrets.COMMITS_AUTHORING }}
           plugin_languages: yes
           plugin_languages_indepth: yes
           plugin_languages_limit: 6
