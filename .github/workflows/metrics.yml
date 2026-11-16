@@ -26,6 +26,7 @@ jobs:
           plugin_languages_limit: 6
           plugin_languages_sections: most-used
           plugin_languages_details: percentage
+          plugin_languages_ignored: D
           plugin_languages_analysis_timeout: 60
           plugin_languages_skipped: DataStructLesson, term-homework, MuXi, SnakeGame, VulkanLearn, WorkSpace, SAM, AstrBot, opentui, libuv, go-zero, QD-COOP-QueensDomain-COOP-MOD, MuXi-Fresh-Fe-2.0
           extras_css: |
