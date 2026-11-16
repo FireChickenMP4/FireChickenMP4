@@ -11,7 +11,7 @@ jobs:
     permissions:
       contents: write
     steps:
-      - uses: lowlighter/metrics@latest
+      - uses: FireChickenMP4/metrics@master
         with:
           token: ${{ secrets.METRICS_TOKEN }}
           user: FireChickenMP4
@@ -26,9 +26,9 @@ jobs:
           plugin_languages_limit: 6
           plugin_languages_sections: most-used
           plugin_languages_details: percentage
+          plugin_languages_skipped_paths: "**/target/**, **/dist/**, **/node_modules/**"
           plugin_languages_analysis_timeout: 60
           plugin_languages_skipped: DataStructLesson, term-homework, MuXi, SnakeGame, VulkanLearn, WorkSpace, SAM, AstrBot, opentui, libuv, go-zero, QD-COOP-QueensDomain-COOP-MOD, MuXi-Fresh-Fe-2.0
-          plugin_languages_ignored: D
           extras_css: |
             @media (prefers-color-scheme: dark) {
               svg { color: #adbac7; }
