@@ -19,11 +19,15 @@ jobs:
           template: classic
           base: header, activity
           config_timezone: Asia/Shanghai
+          repositories_forks: yes
+          commits_authoring: FireChickenMP4, Haiyang Ren, 67735644+FireChickenMP4@users.noreply.github.com
           plugin_languages: yes
+          plugin_languages_indepth: yes
           plugin_languages_limit: 6
           plugin_languages_sections: most-used
           plugin_languages_details: percentage
-          plugin_languages_skipped: DataStructLesson, term-homework, MuXi, SnakeGame, VulkanLearn, WorkSpace, SAM
+          plugin_languages_analysis_timeout: 60
+          plugin_languages_skipped: DataStructLesson, term-homework, MuXi, SnakeGame, VulkanLearn, WorkSpace, SAM, AstrBot, opentui, libuv, go-zero, QD-COOP-QueensDomain-COOP-MOD, MuXi-Fresh-Fe-2.0
           extras_css: |
             @media (prefers-color-scheme: dark) {
               svg { color: #adbac7; }
